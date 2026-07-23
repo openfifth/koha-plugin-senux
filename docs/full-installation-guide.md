@@ -10,7 +10,7 @@ Lastly, it may also be wise to set `plugins_restart` to `1`, whilst you are edit
 
 ## Installing SENUX
 
-Once the plugin system for your Koha instance is enabled, you can install the plugin. [Go to the releases page](https://github.com/openfifth/koha-plugin-senux/releases), and find within the latest release. At the time of writing, this is v25.11.00. There will be three files; two source code archives, and a file ending in `.kpz`. Download this latter file.
+Once the plugin system for your Koha instance is enabled, you can install the plugin. [Go to the releases page](https://github.com/openfifth/koha-plugin-senux/releases), and find within the latest release. At the time of writing, this is v25.11.01. There will be three files; two source code archives, and a file ending in `.kpz`. Download this latter file.
 
 Next, on your Koha system's Staff client, navigate to Koha Administration, then Manage Plugins. On this page, click Upload plugin. On the new page that appears, use the file picker to find your plugin, then click Upload. After a few seconds, you should be redirected back to the previous Manage Plugins page.
 
