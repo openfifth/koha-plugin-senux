@@ -60,7 +60,7 @@ sub upgrade {
     my ($self) = @_;
 
     return undef
-        unless ( $self->npm_reinstall );
+        unless ( $self->npm_reinstall( { confirm => 'yes_please' } ) );
 
     $self->store_data( { date_updated  => strftime( "%Y-%m-%d %H:%M:%S", localtime ) } );
 
